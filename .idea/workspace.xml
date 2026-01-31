@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1de77b65-14d9-41ef-a314-ec448da5c11e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Java y Spring Framework /ScreenMatch/src/main/java/com/Alura/ScreenMatch/NarutoCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VollMed/src/main/java/VollMed/RestControllers/Doctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Back End - Java Orientado a Objetos/2023-Java-creando-tu-primera-aplicacion-aula-2/src/Decisiones.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Back End - Java Orientado a Objetos/Curso 1 - Creando Primera Aplicacion en Java/App De Audio/src/Audio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Back End - Java Orientado a Objetos/Curso 1 - Creando Primera Aplicacion en Java/App De Audio/src/Canciones.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Back End - Java Orientado a Objetos/Curso 1 - Creando Primera Aplicacion en Java/App De Audio/src/EpisodiosPodcasts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Back End - Java Orientado a Objetos/Curso 1 - Creando Primera Aplicacion en Java/App De Audio/src/Podcast.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Back End - Java Orientado a Objetos/Curso 1 - Creando Primera Aplicacion en Java/App De Audio/src/letras.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Back End - Java Orientado a Objetos/Curso 1 - Creando Primera Aplicacion en Java/Consultas_StarWars/src/MovieConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Back End - Java Orientado a Objetos/Curso 1 - Creando Primera Aplicacion en Java/Consultas_StarWars/src/Movies.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Back End - Java Orientado a Objetos/Curso 1 - Creando Primera Aplicacion en Java/Consultas_StarWars/src/Principal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Back End - Java Orientado a Objetos/Curso 1 - Creando Primera Aplicacion en Java/Consultas_StarWars/src/SearchMovie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Back End - Java Orientado a Objetos/Curso 1 - Creando Primera Aplicacion en Java/Consultas_StarWars/src/TransformMovie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Back End - Java Orientado a Objetos/Curso 1 - Creando Primera Aplicacion en Java/Currency_Converter/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Back End - Java Orientado a Objetos/Curso 1 - Creando Primera Aplicacion en Java/Desafio - AppCompras/src/Productos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Back End - Java Orientado a Objetos/Curso 1 - Creando Primera Aplicacion en Java/JavaMasMySQL/src/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Back End - Java Orientado a Objetos/Curso 1 - Creando Primera Aplicacion en Java/JavaMasMySQL/src/ConexionMYSQL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Back End - Java Orientado a Objetos/Curso 1 - Creando Primera Aplicacion en Java/JavaMasMySQL/src/Insertar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Back End - Java Orientado a Objetos/Curso 1 - Creando Primera Aplicacion en Java/PrimerPrograma/src/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Back End - Java Orientado a Objetos/Recursos/Practica2/Audio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Challenges/amigo_secreto/Certificado/insignia.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Challenges/amigo_secreto/challenge-amigo-secreto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Currency_Converter/src/APIConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Currency_Converter/src/ConnectionExchangeRate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Currency_Converter/src/Currency_Converter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Currency_Converter/src/ExchangeInformation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Currency_Converter/src/ExchangeRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Currency_Converter/src/LogicProgram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java - Aplicando POO/Currency_Converter/src/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java - Aplicando POO/Currency_Converter/src/.idea/dictionaries/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java - Aplicando POO/Currency_Converter/src/.idea/libraries/gson_2_13_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java - Aplicando POO/Currency_Converter/src/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java - Aplicando POO/Currency_Converter/src/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java - Aplicando POO/Currency_Converter/src/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java - Aplicando POO/Currency_Converter/src/Currency_Converter.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Principiante_Programacion/git-y-github/certificado/Juan Rafael Ramírez Montero - Curso Git y GitHub_ repositorio, commit y versiones - Alura.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Principiante_Programacion/logica_funciones-listas/2035-logica-programacion-2-Aula1/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Principiante_Programacion/logica_funciones-listas/2035-logica-programacion-2-Aula1/img/Ruido.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Principiante_Programacion/logica_funciones-listas/2035-logica-programacion-2-Aula1/img/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Principiante_Programacion/logica_funciones-listas/2035-logica-programacion-2-Aula1/img/code.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Principiante_Programacion/logica_funciones-listas/2035-logica-programacion-2-Aula1/img/ia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Principiante_Programacion/logica_funciones-listas/2035-logica-programacion-2-Aula1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Principiante_Programacion/logica_funciones-listas/2035-logica-programacion-2-Aula1/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Principiante_Programacion/logica_funciones-listas/Certificado/Juan Rafael Ramírez Montero - Curso Lógica de programación_ explorar funciones y listas - Alura.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Principiante_Programacion/logica_funciones-listas/js-curso-2-main_Desafio/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Principiante_Programacion/logica_funciones-listas/js-curso-2-main_Desafio/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Principiante_Programacion/logica_funciones-listas/js-curso-2-main_Desafio/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Principiante_Programacion/logica_funciones-listas/js-curso-2-main_Desafio/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Principiante_Programacion/logica_javascript/2034-logica-programacion-1-ProyectoInicial/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Principiante_Programacion/logica_javascript/2034-logica-programacion-1-ProyectoInicial/img/JS Game.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Principiante_Programacion/logica_javascript/2034-logica-programacion-1-ProyectoInicial/img/JS Game_files/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Principiante_Programacion/logica_javascript/2034-logica-programacion-1-ProyectoInicial/img/JS Game_files/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Principiante_Programacion/logica_javascript/2034-logica-programacion-1-ProyectoInicial/img/Ruido.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Principiante_Programacion/logica_javascript/2034-logica-programacion-1-ProyectoInicial/img/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Principiante_Programacion/logica_javascript/2034-logica-programacion-1-ProyectoInicial/img/code.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Principiante_Programacion/logica_javascript/2034-logica-programacion-1-ProyectoInicial/img/robot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Principiante_Programacion/logica_javascript/2034-logica-programacion-1-ProyectoInicial/img/trophy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Principiante_Programacion/logica_javascript/2034-logica-programacion-1-ProyectoInicial/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Principiante_Programacion/logica_javascript/2034-logica-programacion-1-ProyectoInicial/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Principiante_Programacion/logica_javascript/Certificado/Juan Rafael Ramírez Montero - Curso Lógica de programación_ sumérgete en la programación con JavaScript - Alura.pdf" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="38t9fXFqOJhjp0zE3Uli6xPBLmW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1de77b65-14d9-41ef-a314-ec448da5c11e" name="Changes" comment="" />
+      <created>1769608105778</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1769608105778</updated>
+    </task>
+    <servers />
+  </component>
+</project>
