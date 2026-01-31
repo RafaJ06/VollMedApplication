@@ -1,8 +1,5 @@
 package VollMed.RestControllers;
-import VollMed.Doctor.Doctor;
-import VollMed.Doctor.DoctorDTO;
-import VollMed.Doctor.DoctorsList;
-import VollMed.Doctor.UpdateDoctor;
+import VollMed.Doctor.*;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

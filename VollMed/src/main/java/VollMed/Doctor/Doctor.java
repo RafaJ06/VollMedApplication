@@ -1,12 +1,12 @@
 package VollMed.Doctor;
 
+import VollMed.Address.Address;
 import jakarta.persistence.*;
 import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import org.springframework.transaction.annotation.Transactional;
 
 @Getter
 @NoArgsConstructor

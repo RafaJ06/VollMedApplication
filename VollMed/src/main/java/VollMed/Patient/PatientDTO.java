@@ -1,4 +1,4 @@
-package VollMed.Doctor;
+package VollMed.Patient;
 
 import VollMed.Address.AddressInformationDTO;
 import jakarta.validation.Valid;
@@ -7,13 +7,11 @@ import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Pattern;
 
-public record DoctorDTO(
+public record PatientDTO(
 
         @NotBlank String name,
         @Email @NotBlank String email,
-        @NotBlank String phoneNumber,
+        @NotNull @NotBlank @Pattern(regexp = "\\d{10}") String phoneNumber,
         @NotBlank @Pattern(regexp = "^\\d{11}$") String document,
-        @NotNull Specialization specialization,
-        @NotNull @Valid AddressInformationDTO addressInformation
-) {
+        @NotNull @Valid AddressInformationDTO address) {
 }
