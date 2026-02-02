@@ -1,0 +1,1 @@
+ALTER TABLE patient RENAME COLUMN postalCode TO postal_code;

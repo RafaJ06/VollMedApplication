@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0e38b16e-132f-458c-93c5-b1cd232c21a9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Java y Spring Framework /ScreenMatch/src/main/java/com/Alura/ScreenMatch/NarutoCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/VollMed/Domain/Doctor/DoctorDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/VollMed/Domain/Patient/PatientDetailsDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/VollMed/Domain/user/AuthenticationDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/VollMed/Domain/user/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/VollMed/Domain/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/VollMed/Domain/user/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/VollMed/Infra/Exceptions/ExceptionsValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/VollMed/Infra/Security/SecurityConfigurations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/VollMed/Infra/Security/SecurityFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/VollMed/Infra/Security/TokenJWTDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/VollMed/Infra/Security/TokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/VollMed/RestControllers/ControllerAuthenticator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V9__create-table-users.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Back End - Java Orientado a Objetos/2023-Java-creando-tu-primera-aplicacion-aula-2/src/Decisiones.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Back End - Java Orientado a Objetos/Curso 1 - Creando Primera Aplicacion en Java/App De Audio/src/Audio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Back End - Java Orientado a Objetos/Curso 1 - Creando Primera Aplicacion en Java/App De Audio/src/Canciones.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Back End - Java Orientado a Objetos/Curso 1 - Creando Primera Aplicacion en Java/App De Audio/src/EpisodiosPodcasts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Back End - Java Orientado a Objetos/Curso 1 - Creando Primera Aplicacion en Java/App De Audio/src/Podcast.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Back End - Java Orientado a Objetos/Curso 1 - Creando Primera Aplicacion en Java/App De Audio/src/letras.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Back End - Java Orientado a Objetos/Curso 1 - Creando Primera Aplicacion en Java/Consultas_StarWars/src/MovieConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Back End - Java Orientado a Objetos/Curso 1 - Creando Primera Aplicacion en Java/Consultas_StarWars/src/Movies.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Back End - Java Orientado a Objetos/Curso 1 - Creando Primera Aplicacion en Java/Consultas_StarWars/src/Principal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Back End - Java Orientado a Objetos/Curso 1 - Creando Primera Aplicacion en Java/Consultas_StarWars/src/SearchMovie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Back End - Java Orientado a Objetos/Curso 1 - Creando Primera Aplicacion en Java/Consultas_StarWars/src/TransformMovie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Back End - Java Orientado a Objetos/Curso 1 - Creando Primera Aplicacion en Java/Currency_Converter/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Back End - Java Orientado a Objetos/Curso 1 - Creando Primera Aplicacion en Java/Desafio - AppCompras/src/Productos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Back End - Java Orientado a Objetos/Curso 1 - Creando Primera Aplicacion en Java/JavaMasMySQL/src/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Back End - Java Orientado a Objetos/Curso 1 - Creando Primera Aplicacion en Java/JavaMasMySQL/src/ConexionMYSQL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Back End - Java Orientado a Objetos/Curso 1 - Creando Primera Aplicacion en Java/JavaMasMySQL/src/Insertar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Back End - Java Orientado a Objetos/Curso 1 - Creando Primera Aplicacion en Java/PrimerPrograma/src/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Back End - Java Orientado a Objetos/Recursos/Practica2/Audio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Challenges/amigo_secreto/Certificado/insignia.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Challenges/amigo_secreto/challenge-amigo-secreto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Currency_Converter/src/APIConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Currency_Converter/src/ConnectionExchangeRate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Currency_Converter/src/Currency_Converter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Currency_Converter/src/ExchangeInformation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Currency_Converter/src/ExchangeRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Currency_Converter/src/LogicProgram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java - Aplicando POO/Currency_Converter/src/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java - Aplicando POO/Currency_Converter/src/.idea/dictionaries/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java - Aplicando POO/Currency_Converter/src/.idea/libraries/gson_2_13_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java - Aplicando POO/Currency_Converter/src/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java - Aplicando POO/Currency_Converter/src/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java - Aplicando POO/Currency_Converter/src/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java - Aplicando POO/Currency_Converter/src/Currency_Converter.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/VollMed/Address/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VollMed/Domain/Address/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/VollMed/Address/AddressInformationDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VollMed/Domain/Address/AddressInformationDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/VollMed/Doctor/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VollMed/Domain/Doctor/Doctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/VollMed/Doctor/DoctorDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VollMed/Domain/Doctor/DoctorDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/VollMed/Doctor/DoctorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VollMed/Domain/Doctor/DoctorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/VollMed/Doctor/DoctorsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VollMed/Domain/Doctor/DoctorsList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/VollMed/Doctor/Specialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VollMed/Domain/Doctor/Specialization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/VollMed/Doctor/UpdateDoctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VollMed/Domain/Doctor/UpdateDoctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/VollMed/Patient/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VollMed/Domain/Patient/Patient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/VollMed/Patient/PatientDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VollMed/Domain/Patient/PatientDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/VollMed/Patient/PatientListDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VollMed/Domain/Patient/PatientListDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/VollMed/Patient/PatientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VollMed/Domain/Patient/PatientRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/VollMed/Patient/PatientUpdateDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VollMed/Domain/Patient/PatientUpdateDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/VollMed/RestControllers/DoctorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VollMed/RestControllers/DoctorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/VollMed/RestControllers/PatientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VollMed/RestControllers/PatientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Principiante_Programacion/git-y-github/certificado/Juan Rafael Ramírez Montero - Curso Git y GitHub_ repositorio, commit y versiones - Alura.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Principiante_Programacion/logica_funciones-listas/2035-logica-programacion-2-Aula1/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Principiante_Programacion/logica_funciones-listas/2035-logica-programacion-2-Aula1/img/Ruido.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Principiante_Programacion/logica_funciones-listas/2035-logica-programacion-2-Aula1/img/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Principiante_Programacion/logica_funciones-listas/2035-logica-programacion-2-Aula1/img/code.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Principiante_Programacion/logica_funciones-listas/2035-logica-programacion-2-Aula1/img/ia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Principiante_Programacion/logica_funciones-listas/2035-logica-programacion-2-Aula1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Principiante_Programacion/logica_funciones-listas/2035-logica-programacion-2-Aula1/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Principiante_Programacion/logica_funciones-listas/Certificado/Juan Rafael Ramírez Montero - Curso Lógica de programación_ explorar funciones y listas - Alura.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Principiante_Programacion/logica_funciones-listas/js-curso-2-main_Desafio/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Principiante_Programacion/logica_funciones-listas/js-curso-2-main_Desafio/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Principiante_Programacion/logica_funciones-listas/js-curso-2-main_Desafio/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Principiante_Programacion/logica_funciones-listas/js-curso-2-main_Desafio/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Principiante_Programacion/logica_javascript/2034-logica-programacion-1-ProyectoInicial/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Principiante_Programacion/logica_javascript/2034-logica-programacion-1-ProyectoInicial/img/JS Game.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Principiante_Programacion/logica_javascript/2034-logica-programacion-1-ProyectoInicial/img/JS Game_files/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Principiante_Programacion/logica_javascript/2034-logica-programacion-1-ProyectoInicial/img/JS Game_files/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Principiante_Programacion/logica_javascript/2034-logica-programacion-1-ProyectoInicial/img/Ruido.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Principiante_Programacion/logica_javascript/2034-logica-programacion-1-ProyectoInicial/img/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Principiante_Programacion/logica_javascript/2034-logica-programacion-1-ProyectoInicial/img/code.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Principiante_Programacion/logica_javascript/2034-logica-programacion-1-ProyectoInicial/img/robot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Principiante_Programacion/logica_javascript/2034-logica-programacion-1-ProyectoInicial/img/trophy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Principiante_Programacion/logica_javascript/2034-logica-programacion-1-ProyectoInicial/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Principiante_Programacion/logica_javascript/2034-logica-programacion-1-ProyectoInicial/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Principiante_Programacion/logica_javascript/Certificado/Juan Rafael Ramírez Montero - Curso Lógica de programación_ sumérgete en la programación con JavaScript - Alura.pdf" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="38rlEJvoootZlFXUu0Xo5PBpyJp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.VollMedApplication.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;PrimeraFase&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="VollMed.Infra.Security" />
+      <recent name="VollMed.Domain.user" />
+      <recent name="VollMed.Patient" />
+      <recent name="VollMed.Patient.Patient" />
+      <recent name="VollMed.RestControllers" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="VollMedApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VollMed.VollMedApplication" />
+      <module name="VollMed" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="VollMed.Address.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e38b16e-132f-458c-93c5-b1cd232c21a9" name="Changes" comment="" />
+      <created>1769565459124</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1769565459124</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.sql.SQLSyntaxErrorException" package="java.sql" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

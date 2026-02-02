@@ -1,0 +1,1 @@
+ALTER TABLE medicos RENAME COLUMN phoneNumber TO phone_Number;
