@@ -1,4 +1,9 @@
 spring:
+  main:
+    allow-bean-definition-overriding: true
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
   jpa:
     properties:
       hibernate:
@@ -9,7 +14,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/prueba
     username: root
-    password: 240605
+    password: ${DB_PASSWORD:240605}
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   flyway:
@@ -28,4 +33,6 @@ server:
 api:
   security:
     token:
-      secret: 12345678
+      secret: ${JWT_SECRET:12345678}
+
+

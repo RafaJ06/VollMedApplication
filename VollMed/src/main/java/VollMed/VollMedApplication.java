@@ -6,5 +6,5 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class VollMedApplication {
 
-	static void main(String[] args) {SpringApplication.run(VollMedApplication.class, args);}
+	public static void main(String[] args) {SpringApplication.run(VollMedApplication.class, args);}
 }

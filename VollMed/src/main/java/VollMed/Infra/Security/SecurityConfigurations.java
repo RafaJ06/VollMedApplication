@@ -15,6 +15,8 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
+//import static org.springframework.security.authorization.SingleResultAuthorizationManager.permitAll;
+
 @Configuration
 @EnableWebSecurity
 public class SecurityConfigurations {
@@ -22,15 +24,22 @@ public class SecurityConfigurations {
     public SecurityFilter securityFilter;
 
     @Bean
-    public SecurityFilterChain securityFilterChain(HttpSecurity http) {
-        return (SecurityFilterChain)http.csrf((c) -> c.disable()).sessionManagement((sm) -> sm.sessionCreationPolicy(SessionCreationPolicy.STATELESS)).authorizeHttpRequests((req) -> {
-            ((AuthorizeHttpRequestsConfigurer.AuthorizedUrl)req.requestMatchers(HttpMethod.POST, new String[]{"/login"})).permitAll();
-            ((AuthorizeHttpRequestsConfigurer.AuthorizedUrl)req.anyRequest()).authenticated();
-        }).addFilterBefore(this.securityFilter, UsernamePasswordAuthenticationFilter.class).build();
+    public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+        return /*(SecurityFilterChain)*/http.csrf(c -> c.disable())
+                .sessionManagement(sm -> sm.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
+                .authorizeHttpRequests((req) -> {
+                    req.requestMatchers(HttpMethod.POST, "/login").permitAll()
+                            .requestMatchers("/v3/api-docs/**", "/swagger-ui/**", "/swagger-ui.html").permitAll()
+
+
+                            .anyRequest().authenticated();
+                })
+                .addFilterBefore(this.securityFilter, UsernamePasswordAuthenticationFilter.class)
+                .build();
     }
 
     @Bean
-    public AuthenticationManager authenticationManager(AuthenticationConfiguration configuration) {
+    public AuthenticationManager authenticationManager(AuthenticationConfiguration configuration) throws Exception {
         return configuration.getAuthenticationManager();
     }
 
