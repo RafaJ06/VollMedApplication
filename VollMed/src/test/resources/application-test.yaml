@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/prueba_test
+    username: root
+    password: ${DB_PASSWORD:240605}
+
+  test:
+    database:
+      replace: none

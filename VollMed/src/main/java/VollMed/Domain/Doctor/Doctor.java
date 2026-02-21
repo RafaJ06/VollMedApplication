@@ -19,7 +19,7 @@ public class Doctor {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
-    private boolean active;
+    private boolean active = true;
     private String name;
     private String email;
     private String phoneNumber;
