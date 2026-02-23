@@ -42,14 +42,15 @@ class DoctorRepositoryTest {
     @Test
     @DisplayName("this must return null when the a doctor exist but is not available at that hour")
     void pickUpAvailableDoctorForAppointmentScenery1() {
+        //Given or arrange
         var mondayNextWeekAt10AM = LocalDate.now().with(TemporalAdjusters.next(DayOfWeek.MONDAY)).atTime(10, 0);
 
         var doctor = signUpDoctor("jose", "jose@gmail.com", "12331232190", Specialization.ORTOPEDIA);
         var patient = singUpPatient("hola", "hola@gmail.com", "312321");
-     bookConsult(doctor, patient, mondayNextWeekAt10AM);
-
+        bookConsult(doctor, patient, mondayNextWeekAt10AM);
+        //When
         var doctorAvailable = repository.PickUpAvailableDoctorForAppointment(Specialization.ORTOPEDIA, mondayNextWeekAt10AM);
-        assertThat(doctorAvailable).isNotNull();
+        assertThat(doctorAvailable).isNotNull(); //THIS TEST IS FAILING AND NEEDS TO BE FIXED
     }
 
     @Test
@@ -64,40 +65,41 @@ class DoctorRepositoryTest {
         assertThat(doctorAvailable).isEqualTo(doctor);
     }
 
-    private PatientDTO patientDetails(String name, String email, String nationalID){
+    private PatientDTO patientDetails(String name, String email, String nationalID) {
         return new PatientDTO(name, email, nationalID, "66686", addressInformation());
     }
 
-    private  void bookConsult(Doctor doctor, Patient patient, LocalDateTime date){
-        em.persist(new Consult(null, doctor, patient, CancellationMotive.DOCTOR_CANCELLED, false,date ));
+    private void bookConsult(Doctor doctor, Patient patient, LocalDateTime date) {
+        em.persist(new Consult(null, doctor, patient, CancellationMotive.DOCTOR_CANCELLED, false, date));
     }
 
-    private DoctorDTO doctorDetails(String name, String email, String nationalID, Specialization specialization ){
-        return new DoctorDTO(name, email, "887979879", nationalID,specialization, addressInformation());
+    private DoctorDTO doctorDetails(String name, String email, String nationalID, Specialization specialization) {
+        return new DoctorDTO(name, email, "887979879", nationalID, specialization, addressInformation());
     }
-private Doctor signUpDoctor(String name, String email, String nationalId, Specialization specialization){
+
+    private Doctor signUpDoctor(String name, String email, String nationalId, Specialization specialization) {
         var doctor = new Doctor((doctorDetails(name, email, nationalId, specialization)));
         em.persist(doctor);
         return doctor;
-}
+    }
 
-    private Patient singUpPatient(String name, String email, String nationalId){
-        var patient = new Patient(patientDetails(name,email, nationalId));
+    private Patient singUpPatient(String name, String email, String nationalId) {
+        var patient = new Patient(patientDetails(name, email, nationalId));
         em.persist(patient);
         return patient;
 
     }
 
-    private AddressInformationDTO addressInformation(){
+    private AddressInformationDTO addressInformation() {
         return
                 new AddressInformationDTO(
-                "THREE",
-                null,
-                null,
-                "SD",
-                "SND",
-                "NA",
-                "23421");
+                        "THREE",
+                        null,
+                        null,
+                        "SD",
+                        "SND",
+                        "NA",
+                        "23421");
 
     }
 }

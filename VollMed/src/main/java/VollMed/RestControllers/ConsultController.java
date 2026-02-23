@@ -20,7 +20,7 @@ public class ConsultController {
 
 
     @Transactional
-    @PostMapping
+    @PostMapping("/consult")
     public ResponseEntity makeUpConsult(@RequestBody @Valid ConsultRequest consultRequest) {
 
         ConsultDetails consult = scheduleAppointment.toBookAppointment(consultRequest);
