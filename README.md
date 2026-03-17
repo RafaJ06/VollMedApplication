@@ -42,9 +42,9 @@ This repository is divided into 3 branches, with each branch representing a spec
 
 Este proyecto está dividido en 3 ramas, donde cada rama representa una fase del proyecto:
 
-***Primera rama (fase):*** La creación de los RestControllers y validaciones.
+***Primera rama (fase 1):*** La creación de los RestControllers y validaciones.
 
-***Segunda rama (fase):*** Agregamos seguridad y login a nuestro proyecto.
+***Segunda rama (fase 2):*** Agregamos seguridad y login a nuestro proyecto.
 
-***Tercera rama (fase):*** Agregamos documentación, test automatizados/unitarios y algunas reglas de negocio.
+***Tercera rama (fase 3):*** Agregamos documentación, test automatizados/unitarios y algunas reglas de negocio.
 
