@@ -29,6 +29,41 @@ This repository is divided into 3 branches, with each branch representing a spec
 ***Second Branch (Phase 2):*** Adding security and login functionality to the project.
 
 ***Third Branch (Phase 3):*** Adding documentation, automated/unit tests, and business rules.
+
+## DESCRIPTION
+This specific project focuses on implementing a CRUD system for patients and doctors, while developing, understanding, and practicing fundamental concepts of Spring Boot and backend application development.
+***
+
+### Key Functionalities:
+
+* Register a patient/doctor [CREATE]
+
+* List one (or multiple) patient(s)/doctor(s) [READ]
+
+* Update a patient/doctor [UPDATE]
+
+* Delete a patient/doctor [DELETE]
+
+>***NOTE:*** Since data deletion is a sensitive matter—especially in healthcare systems—and can pose risks regarding audit trails, we do not perform a physical/hard delete. Instead, we implement a logical delete by changing the entity's status to "INACTIVE."
+
+### Project Achievements
+
+* Implemented a Security Filter by creating a Login for our API.
+
+* Utilized JWT (JSON Web Tokens) as a session validator for our Stateless system.
+
+* Used Flyway for database table versioning and migrations.
+
+* Utilized MySQL as the primary database management system.
+
+* Integrated OpenAPI and Swagger to document our APIs.
+
+* Performed Unit Testing on the core methods of the application.
+
+* Used Maven as the dependency manager.
+
+* Leveraged Spring Data JPA to perform CRUD operations on our entities.
+
 ***
 ![Español](https://img.shields.io/badge/ESPAÑOL-5b5b5b?style=for-the-badge)
 
@@ -48,3 +83,33 @@ Este proyecto está dividido en 3 ramas, donde cada rama representa una fase del
 
 ***Tercera rama (fase 3):*** Agregamos documentación, test automatizados/unitarios y algunas reglas de negocio.
 
+## DESCRIPCIÓN
+Este proyecto en específico se enfoca en la implementación de un CRUD sobre pacientes y usuarios, además del desarrollo, conocimiento y práctica de conceptos fundamentales en Spring Boot y el desarrollo de aplicaciones BackEnd. 
+***
+
+### Podemos: 
+
+- Registrar un paciente/Doctor [CREATE]
+- Listar un (o varios) paciente(s)/doctor(es) [READ]
+- Actualizar un paciente/doctor [UPDATE]
+- Borrar un paciente/Doctor [DELETE] 
+
+> ***OJO:*** Dado que la eliminación de datos es algo delicado (más en un sistema como el de salud), y puede representar ciertos riesgo en temas de auditoría, en vez de realizar una eliminación física/real de los datos realizamos una exclusión lógica cambiando el estado de la entidad a "INACTIVO".
+
+### ¿Qué logramos en este proyecto?
+
+* Pudimos implementar un filtro de seguridad creando un LogIn para nuestra API.
+
+*  Utilizamos JWT que nos sirva de validador de sesión para nuestro sistema Stateless 
+
+* Utilizamos Flyway para versionar las tablas de nuestra BD y las migraciones
+
+* Utilizamos MySQL como gestor de base de datos
+
+* Utilizamos OPEN API y Swagger para documentar nuestras APIS
+
+* Realizamos test unitarios sobre algunos de los métodos principales que creamos.
+
+* Utilizamos Maven con gestor de dependencias
+
+* Utilizamos Spring Data para realizar CRUDs en nuestras entidades.
