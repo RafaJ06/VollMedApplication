@@ -23,6 +23,7 @@ public class SecurityConfigurations {
     @Autowired
     public SecurityFilter securityFilter;
 
+    //This class help us to determine who has access to our site
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         return /*(SecurityFilterChain)*/http.csrf(c -> c.disable())

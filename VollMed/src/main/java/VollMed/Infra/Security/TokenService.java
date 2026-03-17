@@ -15,16 +15,23 @@ import java.time.ZoneOffset;
 
 @Service
 public class TokenService {
+
     @Value("${api.security.token.secret}")
     private String secret;
     Algorithm algorithm;
-    private final String Issuer = "VollMed API";
+    private final String ISSUER = "VollMed API";
 
     public String CreateToken(User user) {
         this.algorithm = Algorithm.HMAC256(this.secret);
 
         try {
-            return JWT.create().withIssuer("VollMed API").withSubject(user.getUsername()).withExpiresAt(this.ExpirationDate()).sign(this.algorithm);
+
+            return JWT.create()
+                    .withIssuer(ISSUER)
+                    .withSubject(user.getUsername())
+                    .withExpiresAt(this.ExpirationDate())
+                    .sign(this.algorithm);
+
         } catch (JWTCreationException exception) {
             throw new RuntimeException("An error occurred", exception);
         }
@@ -36,7 +43,13 @@ public class TokenService {
 
     public String getSubject(String tokenJwt) {
         try {
-            return JWT.require(this.algorithm).withIssuer("VollMed API").build().verify(tokenJwt).getSubject();
+            return JWT.require(this.algorithm)
+
+                    .withIssuer(ISSUER)
+                    .build()
+                    .verify(tokenJwt)
+                    .getSubject();
+
         } catch (JWTVerificationException var3) {
             throw new RuntimeException("Invalid Token");
         }

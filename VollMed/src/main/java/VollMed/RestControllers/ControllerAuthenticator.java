@@ -25,9 +25,14 @@ public class ControllerAuthenticator {
 
     @PostMapping
     public ResponseEntity Login(@RequestBody @Valid AuthenticationDetails data) {
-        UsernamePasswordAuthenticationToken token = new UsernamePasswordAuthenticationToken(data.user(), data.password());
+
+        UsernamePasswordAuthenticationToken token =
+                new UsernamePasswordAuthenticationToken(data.user(), data.password());
+
         Authentication authentication = this.manager.authenticate(token);
+
         String tokenJWT = this.tokenService.CreateToken((User)authentication.getPrincipal());
+
         return ResponseEntity.ok(new TokenJWTDTO(tokenJWT));
     }
 }
